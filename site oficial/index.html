@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="node.js" type="text/javascript"></script>
+    <title>hiper_higienizacao</title>
+</head>
+
+<body>
+    <html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Somos uma empresa de limpeza e higienização de estofados e impermeabilização">
+        <meta name="keywords"
+            content="limpeza sofá em salvador, limpeza sofá bahia, higienização de estofados, lavagem a seco, impermeabilização de sofás">
+
+        <meta property="og:title" content="hiper_higienização lava a seco estofados">
+        <title> hiper higienização lava a seco estofados</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Source+Sans+Pro:600,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            :root {
+                --main: #0270ff;
+                --secondary: #008786;
+                --main-font-color: #000;
+                --secondary-font-color: #ffffff93;
+            }
+        </style>
+        <link rel="stylesheet" href="https://iasites.com/css/iasite.min.css">
+        <!-- Google tag (gtag.js) -->
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4F2KVS0G3T"></script>
+        <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-4F2KVS0G3T'); </script>
+    </head>
+
+    <body class="ui-transparent-nav" data-fade_in="on-load" id="body" style="opacity: 1;">
+        <a href="https://wa.me/5571981483858" class="float-whatsapp" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+
+        <a href="tel:+557181483858" class="float-numero" target="_blank">
+            <i style="margin-top:16px" class="fa fa-phone"></i>
+        </a>
+
+        <a href="mailto:hiper_higienização@gmail.com" class="float-numero"
+            style="margin-bottom: 80px; background-color: blue !important" target="_blank">
+            <i style="margin-top:16px" class="fa fa-envelope"></i>
+        </a>
+        <!-- Navbar Fixed + Default -->
+        <nav class="navbar navbar-fixed-top navbar-light bg-white">
+
+
+            <div class="container">
+
+                <!-- Navbar Logo -->
+                <a class="ui-variable-logo navbar-brand" href="#" data-scrollto="inicio" style="width: 115.328px;">
+                    <!-- Default Logo -->
+                    <img class="logo-default"
+                        src="https://cdn.discordapp.com/attachments/1255652614318850125/1255704176948936704/img.png.jpg?ex=667e1925&is=667cc7a5&hm=360057a32595c026601d5b6096649b916dfb59d29bfafe69b6cbe3828ebc70f3&"
+                        width="300px" alt="logo" data-uhd="">
+                </a>
+                <div class="ui-navigation navbar-center" style="">
+                    <ul class="nav navbar-nav">
+                        <!-- Nav Item -->
+                        <li class="" style="opacity: 1;">
+                            <a href="#" data-scrollto="voce-sabia">Você Sabia?</a>
+                        </li>
+
+                        <li style="opacity: 1;" class="">
+                            <a href="#" data-scrollto="diferenciais">Nossos Diferenciais</a>
+                        </li>
+
+                        <li style="opacity: 1;" class="">
+                            <a href="#" data-scrollto="imagens">Galeria</a>
+                        </li>
+
+
+                        <li style="opacity: 1;" class="">
+                            <a href="#" data-scrollto="funcionamento">Funcionamento</a>
+                        </li>
+
+                    </ul><!--item da navegação-->
+                </div>
+
+
+                <!-- Navbar Button -->
+                <a href="https://www.instagram.com/hiper_higienizacao_ofc/" target="_blank" width="300"
+                    class="instagram btn-sm ui-gradient-peach btn-circle"><span class="fa fa-instagram"></span></a>
+
+                <!-- Navbar Toggle -->
+                <a href="#" class="ui-mobile-nav-toggle pull-right">
+                    <div><span></span><span></span><span></span><span></span></div>
+                </a>
+
+
+            </div><!-- .container -->
+        </nav> <!-- nav -->
+
+        <!-- Main Wrapper -->
+        <div class="main" role="main">
+
+            <!-- Waves Hero Slider -->
+            <div id="inicio"
+                class="ui-hero ui-hero-slider slider-pro hero-lg ui-gradient-purple ui-waves hero-svg-layer-1 section sp-horizontal"
+                style="width: 100%; max-width: 100%;">
+                <!-- .sp-slides -->
+
+
+                <div class="container">
+                    <div class="caixa">
+                        <h2>cadastro</h2>
+                        <form id="cadastroForm">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+
+                            <label for="cpf">CPF:</label>
+                            <input type="text" id="cpf" name="cpf" required>
+
+                            <label for="dataNascimento">Data de Nascimento:</label>
+                            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+                            <label for="numeroContato">Número para Contato:</label>
+                            <input type="tel" id="numeroContato" name="numeroContato" required>
+                             <br>
+                             <br>
+                            <button type="button" onclick="cadastrar()">Cadastrar</button>
+                        </form>
+                        <div class="result" id="result"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" data-vertical_center="true" data-vertical_offset="16">
+                            <h1 class="heading">
+                                Somos uma empresa de limpeza e higienização de estofados e impermeabilização
+                            </h1>
+                            <p class="paragraph">
+                                Somos especialistas em limpeza e higienização de estofados, garantindo o cuidado e
+                                bem-estar da sua casa. Oferecemos também serviços de impermeabilização para uma proteção
+                                extra.
+                            </p>
+
+                            <div class="actions">
+                                <a class="btn-lg ui-gradient-blue shadow-xl botao" target="_blank"
+                                    href="tel:+5571981483858"><i class="fa fa-phone"></i> (71) 98148-3858</a>
+                            </div>
+                            <div class="actions mt-4">
+                                <a class="btn-lg ui-gradient-blue shadow-xl botao"
+                                    style="background-color: #25d366; color: #fff !important" target="_blank"
+                                    href="https://wa.me/5571981483858"><i class="fa fa-whatsapp"></i> (71)
+                                    98148-3858</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="https://storage.googleapis.com/p3sites.appspot.com/9f3c07a6-ff2b-4357-ab0a-956b46a5b08b.webp"
+                                class="responsive-on-sm" data-uhd="" data-max_width="600" alt="imagem topo site"
+                                data-default="https://storage.googleapis.com/p3sites.appspot.com/9f3c07a6-ff2b-4357-ab0a-956b46a5b08b.webp"
+                                style="max-width: 600px;">
+                        </div>
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </div>
+        </div>
+        </div>
+        </div>
+        </div><!-- .ui-hero .slider-pro -->
+
+        <!-- voce-sabia Blocks Section -->
+        <div id="voce-sabia" class="section">
+            <div class="container">
+                <div class="ui-showcase-blocks">
+                    <div class="row">
+                        <div class="col-md-6" data-vertical_center="true">
+                            <h4 class="heading">
+                                Você Sabia?
+                            </h4>
+                            <p class="paragraph">
+                                Você sabia que a hiper_higienização lava a seco estofados e realiza a impermeabilização?
+                                Somos especialistas em limpeza e higienização de estofados, garantindo conforto e
+                                segurança para sua família. Deixe sua casa mais saudável e aconchegante conosco!
+                            </p>
+                            <br>
+                            <div class="actions">
+                                <a class="btn-lg ui-gradient-blue shadow-xl" target="_blank"
+                                    href="https://wa.me/5571981483858">SABER MAIS...</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="responsive-on-sm"
+                                src="https://storage.googleapis.com/p3sites.appspot.com/e7e4e14b-ff5e-44d3-bfe8-2a71d68505fe.webp"
+                                data-uhd="" data-max_width="451" alt="imagem voce sabia" style="max-width: 451px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- .container -->
+        </div><!-- .section -->
+
+        <!-- App Features Section -->
+        <div id="diferenciais" class="section bg-light">
+            <div class="container ui-icon-blocks ui-blocks-h icons-lg">
+                <div class="section-heading center">
+                    <h2 class="heading text-indigo">
+                        Nossos Diferenciais
+                    </h2>
+                </div><!-- .section-heading -->
+                <div class="row">
+                    <div class="col-sm-4 col-6 ui-icon-block">
+                        <div class="icon icons-sm"><img width="100" src="https://iasites.com/icons/1.png"
+                                alt="medalha numero 1"></div>
+                        <h4>Trabalhamos com lavagem a seco de sofás camas poltronas puffs cadeiras cortinas e bancos de
+                            veículos a seco</h4>
+                        <p>
+                            Oferecemos um serviço especializado de lavagem a seco para sofás, camas, poltronas, puffs,
+                            cadeiras, cortinas e bancos de veículos. Nossa técnica preserva a qualidade dos tecidos e
+                            garante uma limpeza eficiente sem precisar de água, mantendo sua casa e carro impecáveis.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 col-6 col-sm-offset-0 col-offset-3 ui-icon-block">
+                        <div class="icon icons-sm"><img width="100" src="https://iasites.com/icons/2.png"
+                                alt="medalha numero 2"></div>
+                        <h4>Atendemos no a domicílio</h4>
+                        <p>
+                            Cuidamos do seu Sofá, Colchão, Cortina, etc. Nós atendedemos no conforto do seu lar.
+                            Contamos com profissionais qualificados e equipamentos de última geração para oferecer o
+                            melhor atendimento onde você estiver.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 col-6 ui-icon-block">
+                        <div class="icon icons-sm"><img width="100" src="https://iasites.com/icons/3.png"
+                                alt="medalha numero 3"></div>
+                        <h4>Limpeza de estofados.</h4>
+                        <p>
+                            Aqui na nossa empresa, oferecemos um serviço especializado em limpeza de estofados,
+                            garantindo que seu sofá, poltrona ou colchão fique livre de sujeira e ácaros, proporcionando
+                            mais conforto e bem-estar para sua família.
+                        </p>
+                    </div>
+                    <div class="col-md-12" data-vertical_center="true" data-vertical_offset="16">
+                        <div class="actions">
+                            <a class="btn-lg ui-gradient-blue shadow-xl" target="_blank"
+                                href="https://wa.me/5571981483858">FALE CONOSCO</a>
+                        </div>
+                    </div>
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .section -->
+
+        <div id="imagens" class="section">
+            <div class="container">
+                <!-- Dection Heading -->
+                <div class="section-heading center">
+                    <h2 class="heading text-indigo">
+                        Galeria
+                    </h2>
+                </div><!-- .section-heading -->
+                <!-- App Screens Carousel -->
+                <div class="ui-app-screens owl-carousel owl-theme animate owl-loaded owl-drag fade-in animated"
+                    data-show="fade-in">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage"
+                            style="transition: all 0s ease 0s; width: 3294px; transform: translate3d(-719px, 0px, 0px);">
+                            <div class="owl-item cloned" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/565ff4f8-2fa9-4b53-bc20-606ec4ce191f.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/f215581a-8d54-414c-91ad-3fbeeae96e84.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item cloned active" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/5996d859-9d2b-42f6-8de8-ae1107cdd0f6.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item active center" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/565ff4f8-2fa9-4b53-bc20-606ec4ce191f.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/f215581a-8d54-414c-91ad-3fbeeae96e84.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item active" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/5996d859-9d2b-42f6-8de8-ae1107cdd0f6.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/565ff4f8-2fa9-4b53-bc20-606ec4ce191f.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/f215581a-8d54-414c-91ad-3fbeeae96e84.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                            <div class="owl-item cloned" style="width: auto; margin-right: 16px;">
+                                <div class="ui-card shadow-lg">
+                                    <img src="https://storage.googleapis.com/p3sites.appspot.com/5996d859-9d2b-42f6-8de8-ae1107cdd0f6.webp"
+                                        data-uhd="" alt="imagens da galeria">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-nav disabled">
+                        <div class="owl-prev">prev</div>
+                        <div class="owl-next">next</div>
+                    </div>
+                    <div class="owl-dots disabled">
+                        <div class="owl-dot active"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                        <div class="owl-dot"><span></span></div>
+                    </div>
+                </div><!-- .ui-app-screens -->
+            </div><!-- .container -->
+        </div><!-- .section -->
+
+
+
+        <!-- Contador 1 -->
+        <div class="section bg-dark-gray">
+            <div class="container">
+                <div class="row ui-icon-blocks ui-blocks-h ui-stats icons-lg" data-duration="1000">
+                    <!-- Text Column -->
+                    <div class="col-lg-6 col-md-5" data-vertical_center="true">
+                        <!-- Section Heading -->
+                        <div class="section-heading mb-0 center-on-md">
+                            <h2 class="heading">
+                                O que Fazemos
+                            </h2>
+                            <p class="paragraph">
+                                hiper_higienização lava a seco estofados com cuidado e excelência. Nossa empresa se
+                                dedica à limpeza e higienização de estofados, além de oferecer o serviço de
+                                impermeabilização. Proporcionamos um ambiente limpo e aconchegante para todos os
+                                momentos da sua vida.
+                            </p>
+                            <div class="row ui-icon-blocks ui-blocks-h icons-md mt-2">
+                                <div class="col-4 ui-icon-block animate text-left mb-0 center-on-md fade-in-up animated"
+                                    data-show="fade-in-up">
+                                    <div class="icon icon-trophy"></div>
+                                    <h4 class="heading mb-1">+<span class="stat heading">100</span></h4>
+                                    <p>
+                                        Vendas Realizadas
+                                    </p>
+                                </div>
+                                <div class="col-4 ui-icon-block animate text-left mb-0 center-on-md fade-in-up animated"
+                                    data-show="fade-in-up">
+                                    <div class="icon icon-user"></div>
+                                    <h4 class="heading mb-1">+<span class="stat heading">50</span></h4>
+                                    <p>
+                                        Clientes satisfeitos
+                                    </p>
+                                </div>
+                                <div class="col-4 ui-icon-block animate text-left mb-0 center-on-md fade-in-up animated"
+                                    data-show="fade-in-up">
+                                    <div class="icon icon-star"></div>
+                                    <h4 class="heading mb-1">+<span class="stat heading">50</span></h4>
+                                    <p>
+                                        5 estrelas
+                                    </p>
+                                </div>
+                            </div><!-- .row -->
+                        </div><!-- .section-heading -->
+                    </div>
+                    <!-- Image Column -->
+                    <div class="col-lg-6 col-md-7 img-block animate fade-in-left animated" data-show="fade-in-left"
+                        data-vertical_center="true">
+                        <img class="responsive-on-sm"
+                            src="https://storage.googleapis.com/p3sites.appspot.com/c04285d2-40b6-4c7f-975f-d1475f7e7f48.webp"
+                            alt="imagem do topico" data-uhd="" data-max_width="460" style="max-width: 460px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="funcionamento" class="section">
+            <div class="container">
+                <div>
+                    <div class="section-heading center">
+                        <h2 class="heading text-indigo">
+                            Funcionamento
+                        </h2>
+                    </div><!-- .section-heading -->
+
+                    <!-- UI Blog Grid -->
+                    <div class="row ui-blog-grid">
+                        <!-- Blog Item 1 -->
+                        <div class="col-md-4">
+                            <div class="ui-card post-item shadow-sm bg-lime">
+                                <!-- Item Header -->
+                                <div class="card-header">
+                                    <h4 class="heading">Seg à Sex</h4>
+                                </div>
+                                <!-- Item Text -->
+                                <div class="text-dark-gray card-body h3">
+                                    <p>Das 08 as 18 de segunda a sexta</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ui-card post-item shadow-sm bg-blue">
+                                <!-- Item Header -->
+                                <div class="card-header">
+                                    <h4 class="heading">Sábado</h4>
+                                </div>
+                                <!-- Item Text -->
+                                <div class="text-white card-body h3">
+                                    <p>Sábado da 08 as 14</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Blog Item 3 -->
+                        <div class="col-md-4">
+                            <div class="ui-card post-item shadow-sm bg-red">
+                                <!-- Item Header -->
+                                <div class="card-header">
+                                    <h4 class="heading">Domingo</h4>
+                                </div>
+                                <!-- Item Text -->
+                                <div class="text-white card-body h3">
+                                    <p>Fechado</p>
+                                </div><!-- .ui-blog-grid -->
+
+
+                                <br>
+                                <!-- Scripts -->
+                                <script type="text/javascript"
+                                    src="https://iasites.com/js/jquery-3.2.1.min.js"></script>
+                                <script type="text/javascript"
+                                    src="https://iasites.com/js/jquery.sliderPro.min.js"></script>
+                                <script type="text/javascript"
+                                    src="https://iasites.com/js/owl.carousel.min.js"></script>
+                                <script type="text/javascript" src="https://iasites.com/js/bootstrap.js"></script>
+                                <script type="text/javascript" src="https://iasites.com/js/iasite.js"></script>
+                                
+                            
+    </body>
+
+    </html>
